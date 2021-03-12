@@ -32,6 +32,6 @@ jobs:
     - name: Step 3 - Have GitHub Actions build Maven project.
       run: mvn -B package --file pom.xml
       
-    - name: Step 4 - List the current directory
-      run: dir
+    #- name: Step 4 - List the current directory
+    #  run: dir
       
