@@ -7,10 +7,15 @@
   <groupId>lyit.labs.ie</groupId>
   <artifactId>mavengithubactiondemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
-  <name>mavengithubactiondemo</name>
+  
+  <distributionManagement>
+      <repository>
+        <id>github</id>
+        <name>mavengithubactiondemo</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+        <url>https://github.com/Stephen-Mailey/githubactiondemo</url>
+      </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
