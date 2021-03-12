@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 11
         server-id: https://github.com/Stephen-Mailey/githubactiondemo/blob/main/pom.xml # Value of the distributionManagement/repository/id field of the pom.xml
-        settings-path: ${{ https://github.com/Stephen-Mailey/githubactiondemo }} # location for the settings.xml file
+        settings-path: ${{ .github.com/Stephen-Mailey/githubactiondemo }} # location for the settings.xml file
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
